@@ -1,0 +1,110 @@
+.link {
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    pointer-events: auto;
+}
+
+header {
+    background-color: midnightblue;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+body{
+    margin:0px;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#reg_form {
+    margin: auto;
+    width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    margin: 10px;
+    font-family: 'Segoe UI';
+    font-size: 90%;
+    width: 160px;
+}
+
+h3,h4 {
+    color: midnightblue;
+    font-family: Verdana;
+    margin-bottom:15px;
+}
+
+#separator {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#butt-div {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#submit-butt {
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    pointer-events: auto;
+}
+
+#main-image {
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+main {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#servings, category{
+    width:163px;
+}
+
+.image1{
+    width:20%;
+    margin:10px;
+}
+
+p{
+    font-family:'Segoe UI';
+    font-size:15px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\sofma\Source\Repos\homeworks_web\styles\smth.css">
+</head>
+<body>
+    <header>
+        <a class="link" href="index.html">Form</a>
+        <a class="link" href="page2.html">Inline text elements</a>
+        <a class="link" href="page3.html">Media</a>
+
+    </header>
+    <main>
+        <a href="https://www.pinterest.com/pin/5840674508028612/">
+            <img id="main-image" src="https://i.pinimg.com/564x/c0/b8/9e/c0b89edb51f6c3d3f0bd21e931ba8d06.jpg" />
+        </a>
+        <h3>Recipe submission form</h3>
+
+        <div id="reg_form">
+            <form>
+                <table class="center">
+                    <tr>
+                        <td><b>1.Recipe information</b></td>
+                    </tr>
+                    <tr>
+                        <td>Recipe Title</td>
+                        <td><input type="text" id="recipe-title" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Category</td>
+                        <td>
+                            <select id="category">
+                                <option value="">Select a dish category</option>
+                                <option value="Main dish">Main dish</option>
+                                <option value="Dessert">Dessert</option>
+                                <option value="Snack">Snack</option>
+                                <option value="Appetizer">Appetizer</option>
+                                <option value="Salad">Salad</option>
+                                <option value="Soup">Soup</option>
+                                <option value="Slow-cooker">Slow-cooker</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Number of servings</td>
+                        <td><input type="number" id="servings" min="1" max="10" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Image</td>
+                        <td><input type="file" id="image" /></td>
+
+                    <tr>
+                        <td><b>2.User information</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" id="firstname" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" id="lastname" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" id="email" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Do you want to get notifications</td>
+                        <td>
+                            <input type="radio" id="yes" value="yes" name="yes-no" checked>
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="no" value="no" name="yes-no">
+                            <label for="no">No</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" id="accept" />
+                            <label for="accept">I accept the terms and conditions of the blog.</label>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+            <div id="butt-div">
+                <input type="submit" id="submit-butt" value="upload your recipe"
+                       onclick="Submitted()" />
+            </div>
+
+        </div>
+
+        <div id="hidden-div" hidden="hidden">
+            <h4>submitted data</h4>
+            <table id="table">
+                <tr>
+                    <td>Recipe Title</td>
+                    <td><span id="title-table"></span></td>
+                </tr>
+
+                <tr>
+                    <td>Category</td>
+                    <td><span id="category-table"></span></td>
+                </tr>
+
+                <tr>
+                    <td>Number of servings</td>
+                    <td><span id="number-table"></span></td>
+                </tr>
+
+                <tr>
+                    <td>User Name</td>
+                    <td><span id="name-table"></span></td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><span id="email-table"></span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="C:\Users\sofma\Source\Repos\homeworks_web\scripts\Script1.js"></script>
+    </main>
+    <footer>2023, Kyiv School of economics</footer>
+</body>
+</html>
