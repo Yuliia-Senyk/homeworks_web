@@ -18,4 +18,21 @@ function Submitted(){
 
         var email = document.getElementById("email").value;
         document.getElementById("email-table").innerHTML = email;
+
+
+        const input = document.getElementById("image");
+        const displayedImg = document.getElementById("displayedImg");
+
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                displayedImg.src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+
+        const fileName = input.files[0] ? input.files[0].name : "No file uploaded";
+        document.getElementById("displayed").innerHTML = fileName;
 }

@@ -1,0 +1,20 @@
+table, tr, td {
+    border: 4px dashed white;
+    border-collapse: collapse;
+}
+
+#scroll {
+    overflow: scroll;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+td {
+    background-color: midnightblue;
+    color: lightgray;
+    font-family: Calibri;
+}
+
+body {
+    background-color: #91e3f5;
+}
