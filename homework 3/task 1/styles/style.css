@@ -40,6 +40,7 @@ header {
 
 body{
     margin:10px;
+    margin-bottom:0;
 }
 
 .hovered-btn {
@@ -56,7 +57,7 @@ body{
     margin-left:0px;
 }
 
-#primary-btn {
+#primary-btn{
     display: inline-flex;
     padding: 1px 20px;
     justify-content: center;
@@ -101,7 +102,7 @@ h1{
 }
 
 #inner {
-    width: 70%; /* Can be in percentage also. */
+    width: 70%;
     margin: auto;
     position: absolute;
 
@@ -123,5 +124,126 @@ img{
 
 #get-in-touch {
     background:#F9F9F9;
-    height:712px;
+    height:450px;
+    padding:50px;
+}
+
+#another {
+    color: #000029;
+    font-family: Arial;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+
+button, #sbmt-btn {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(30,48,80);
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 600px;
+    margin: 0;
+    border: 1px solid #CBD7E8;
+    background: #F9F9F9;
+    margin-top: 10px;
+}
+
+    button:hover {
+        background: #0168FC;
+        color: white;
+    }
+
+    button:focus {
+        background: #0168FC;
+        color: white;
+    }
+
+#form-div {
+    width: 500px;
+    float:right;
+    margin-right:40px;
+}
+
+#interest {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-size:18px;
+    line-height:40px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CBD7E8;
+    border-radius: 600px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+input[type=email], #phone {
+    width: 49.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CBD7E8;
+    border-radius: 600px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+#fname {
+    margin-top: 50px;
+}
+
+#sbmt-btn {
+    background: #0168FC;
+    color: white;
+    margin-top:50px;
+}
+
+#contacts{
+    width:40%;
+    margin-right:0;
+    float:left;
+}
+
+#contact{
+    margin-top:170px;
+}
+
+#icon1, #icon2 {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(30,48,80);
+    font-weight: bold;
+    display: inline-flex;
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 600px;
+    margin: 0;
+    border: 1px solid #CBD7E8;
+    background: #F9F9F9;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+#cont{
+    font-family:'Segoe UI';
+    font-weight:bold;
+    font-size:110%;
+}
+
+#em {
+    font-family: 'Segoe UI';
 }
